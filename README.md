@@ -7,6 +7,12 @@ downloadable report you can send to your developer, vendor, or manager.
 
 If you can copy-paste a link, you can use Sentinel.
 
+
+
+## Demo video
+
+[Watch the demo video](https://drive.google.com/file/d/10qqqOr0bzke7iTEmIleBCZcOh6CEkCA2/preview)
+
 ---
 
 ## What it checks
