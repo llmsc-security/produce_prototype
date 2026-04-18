@@ -1,0 +1,85 @@
+URL: https://trustchainai.ai2wj.com/pt_project.html
+
+TrustChainAI
+⌘K
+B
+brave-falcon-a271
+Guest
+▾
+Dashboard
+SCA Projects
+Pen Test Projects
+Risk Score
+Integrations
+Rules & Policy
+Langflow Platform
+Pen Test Project · http://43.156.238.180:7860
+← Projects
+Create Task
+✓ Downloaded · pentest-report-Full_Attack_—_Auth_Bypass_+_RCE-2026-04-18.json
+PROJECT INFO
+READ-ONLY
+📋
+Details
+PROJECT NAME
+TARGET URL
+DESCRIPTION
+ENVIRONMENT
+GENERAL CONFIGURATION
+READ-ONLY
+🔑
+Authentication
+AUTH METHOD
+CUSTOM HEADERS
+🛡️
+Scope
+IN-SCOPE PATHS
+EXCLUDE PATHS
+Non-Lateral Mode
+No lateral movement beyond this target
+ℹ️ Project configuration is locked. Click + Create Task — task-level overrides may also update the project config.
+TASK HISTORY
+3 TASKS TOTAL
+All severity
+Critical
+High
+Medium
+All LLMs
+GPT-4o
+Claude 3.5 Sonnet
+Llama 3.1 70B
+TrustChainAI Internal
+Create Task
+TASK
+LLM MODEL
+SEVERITY
+REPORT
+⚔️
+Full Attack — Auth Bypass + RCE
+⚡ Standard · 6 Apr 2026 14:32 · 11m 24s · http://43.156.238.180:7860
+Claude 3.5 Sonnet
+Critical
+↓ Report
+⚔️
+Reconnaissance + Prompt Injection
+⚡ Standard · 3 Apr 2026 10:15 · 7m 42s · http://43.156.238.180:7860
+GPT-4o
+High
+↓ Report
+⚔️
+Supply Chain Deep Scan
+🔴 Aggressive · 28 Mar 2026 08:00 · — · http://43.156.238.180:7860
+TrustChainAI Internal
+✗ Failed
+↓ Report
+AGGREGATE RESULTS
+2
+EXPLOITS CONFIRMED
+7
+VULNERABILITIES
+3
+TASKS RUN
+86
+RISK SCORE
+✓
+Pen test report downloaded · pentest-report-Full_Attack_—_Auth_Bypass_+_RCE-2026-04-18.json

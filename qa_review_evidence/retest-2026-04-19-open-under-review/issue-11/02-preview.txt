@@ -1,0 +1,98 @@
+URL: https://trustchainai.ai2wj.com/sca_projects.html
+
+TrustChainAI
+⌘K
+Q
+quiet-tiger-9861
+Guest
+▾
+Dashboard
+SCA Projects
+Pen Test Projects
+Risk Score
+Integrations
+Rules & Policy
+SCA Scan
+Projects — Software Composition Analysis
+Abort All Running
+Batch Import
+Batch Run
+New Project
+All status
+Active
+Running
+Draft
+All risk
+Critical
+High
+Medium
+Low
+Sort: Last scan
+Sort: Risk score
+Sort: Name A–Z
+4 projects
+High
+LangChain RAG Pipeline
+github.com/example-org/langchain-rag-pipeline
+Python · 22 Mar 2026 17:45 · 4 tasks
+Python
+main
+4 Critical CVEs
+305 components · 128 CVEs
+78
+High
+LlamaIndex Enterprise
+github.com/example-org/llamaindex-enterprise
+Python · 5 Apr 2026 09:14 · 1 task
+Python
+main
+2 Critical CVEs
+187 components · 29 CVEs
+71
+High
+OpenAI Agents SDK
+github.com/openai/openai-agents-python
+Python · 4 Apr 2026 16:50 · 1 task
+Python
+main
+1 Critical CVEs
+94 components · 18 CVEs
+68
+⏳ Running
+CrewAI
+github.com/joaomdmoura/crewAI
+Python · Running now… · 1 task
+Not yet scanned
+—
+Create New Project
+Add a repo or URL to scan
+Batch Import Projects
+Import SCA projects and auto-queue the first scan task
+✕
+📋 Paste CSV / JSON
+📂 Upload File
+📄 Download Template
+One project per row (CSV) or array of objects (JSON). The first task will be queued automatically after import.
+Queue first task automatically
+Run the initial task immediately after import
+Skip duplicates
+Ignore rows with an existing project name
+NAME
+REPO
+BRANCH
+ECOSYSTEM
+LLM
+QA Batch SCA One
+github.com/example-org/qa-batch-sca-one
+main
+Python
+claude-3.5-sonnet
+QA Batch SCA Two
+github.com/example-org/qa-batch-sca-two
+dev
+Python
+gpt-4o
+✓ 2 valid · 0 skipped
+Preview
+Cancel
+Import & Run

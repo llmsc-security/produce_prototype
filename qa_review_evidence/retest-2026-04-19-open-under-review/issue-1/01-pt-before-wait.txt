@@ -1,0 +1,49 @@
+URL: https://trustchainai.ai2wj.com/pentest.html
+
+TrustChainAI
+⌘K
+K
+keen-otter-e854
+Guest
+▾
+Dashboard
+SCA Projects
+Pen Test Projects
+Risk Score
+Integrations
+Rules & Policy
+Pen Test
+›
+Langflow Platform
+›
+Full Attack — Auth Bypass + RCE
+Live Pen Test · LLM-driven Automated Penetration Testing
+Non-lateral · Zero Collateral Impact
+← Task List
+✎ Edit Config
+Stop / Abort
+TARGET
+43.156.238.180:7860
+PROFILE
+⚡ Standard
+LLM MODEL
+Claude 3.5 Sonnet
+ROUNDS / TASKS
+5 rounds · 330 tasks
+WEB SEARCH
+ON
+ELAPSED
+3s
+▶ Live Demo
+📘 Summary Report
+1
+INFO COLLECTION
+2
+WEAKNESS GATHERING
+3
+FILTERING
+4
+ATTACK PLANNING
+5
+EXPLOITATION
+⏳ STAGE 1 — INFORMATION COLLECTION RUNNING…

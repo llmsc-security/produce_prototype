@@ -1,0 +1,88 @@
+{
+  "issue9": {
+    "passed": true,
+    "visible": true,
+    "filename": "pentest-report-Full_Attack_—_Auth_Bypass_+_RCE-2026-04-18.json",
+    "confirmVisible": true,
+    "pageErrors": []
+  },
+  "issue10": {
+    "passed": true,
+    "has1": true,
+    "has2": true,
+    "pageErrors": []
+  },
+  "issue11": {
+    "passed": true,
+    "has1": true,
+    "has2": true,
+    "pageErrors": []
+  },
+  "issue12": {
+    "passed": true,
+    "visible": true,
+    "filename": "sca-report-v2.1.4_—_Release_Gate-2026-04-18.json",
+    "pageErrors": []
+  },
+  "issue13": {
+    "passed": true,
+    "before0": "toggle on",
+    "after0": "toggle off",
+    "before1": "toggle on",
+    "after1": "toggle off",
+    "beforeThr": "9.0",
+    "afterThr": "91",
+    "newThr": "91",
+    "pageErrors": []
+  },
+  "issue14": {
+    "passed": true,
+    "visible": true,
+    "beforeCount": 2,
+    "afterCount": 3,
+    "toast": true,
+    "pageErrors": []
+  },
+  "issue16": {
+    "passed": true,
+    "visible": true,
+    "beforeCount": 2,
+    "afterCount": 1,
+    "pageErrors": []
+  },
+  "issue17": {
+    "passed": false,
+    "visible": true,
+    "modalOpen": true,
+    "saved": false,
+    "pageErrors": []
+  },
+  "issue21": {
+    "passed": false,
+    "visible": false,
+    "panel": false,
+    "filename": null,
+    "pageErrors": []
+  },
+  "issue22": {
+    "passed": false,
+    "visible": false,
+    "filename": null,
+    "pageErrors": []
+  },
+  "issue25": {
+    "passed": false,
+    "visible": true,
+    "aborted": false,
+    "abortedReload": false,
+    "pageErrors": []
+  },
+  "issue1": {
+    "passed": false,
+    "rerunVisible": true,
+    "rerunWorked": true,
+    "skipVisible": true,
+    "skipWorked": false,
+    "pageErrors": []
+  }
+}

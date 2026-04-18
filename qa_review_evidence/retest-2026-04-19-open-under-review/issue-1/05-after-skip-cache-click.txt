@@ -1,0 +1,95 @@
+URL: https://trustchainai.ai2wj.com/sca_project.html
+
+TrustChainAI
+⌘K
+K
+keen-otter-e854
+Guest
+▾
+Dashboard
+SCA Projects
+Pen Test Projects
+Risk Score
+Integrations
+Rules & Policy
+LangChain RAG Pipeline
+github.com/example-org/langchain-rag-pipeline · Python · main
+← Projects
+New Task
+PROJECT CONFIGURATION
+READ-ONLY
+🎯
+Source
+REPOSITORY URL
+DEFAULT BRANCH
+ECOSYSTEM
+🗄️
+CVE Databases
+Proprietary CVEs 183
+TrustChainAI-exclusive library
+NVD / NIST
+OSV + GitHub Advisory
+False Positive Suppression
+ℹ️ Project configuration is locked after the first task. To change it, click + New Task — task-level overrides may also update the project config.
+4
+TASKS RUN
+128
+TOTAL CVES
+305
+COMPONENTS
+86
+PEAK SCORE
+TASK HISTORY
+All status
+Completed
+Running
+Failed
+All LLMs
+GPT-4o
+Claude 3.5 Sonnet
+Llama 3.1 70B
+TrustChainAI Internal
+TASK
+LLM MODEL
+RISK
+SCORE
+v2.1.4-hotfix — Running
+f72bb3e
+main
+17 Apr 2026 09:41
+⏳ Stage 2/4 · est. 3 min
+TrustChainAI Internal
+⏳ Running
+…
+Watch live →
+feat/rag-v2 — PR Check
+e51ac09
+feat/rag-v2
+22 Mar 2026 17:45
+305 components · 42 CVEs · 10m 52s
+Claude 3.5 Sonnet
+High
+78
+Edit & Re-run
+↻ Re-run (skip cache)
+v2.1.3 — Weekly Scan
+b9d14f7
+main
+29 Mar 2026 08:00
+298 components · 39 CVEs · 9m 11s
+GPT-4o
+High
+74
+Edit & Re-run
+↻ Re-run (skip cache)
+v2.1.4 — Release Gate
+a3f82c1
+main
+6 Apr 2026 14:32
+312 components · 47 CVEs · 11m 24s
+Claude 3.5 Sonnet
+Critical
+86
+Edit & Re-run
+↻ Re-run (skip cache)
+Showing 4 of 4 tasks · Show all

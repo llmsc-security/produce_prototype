@@ -1,0 +1,53 @@
+URL: https://trustchainai.ai2wj.com/integrations.html
+
+TrustChainAI
+⌘K
+C
+calm-fox-f5fe
+Guest
+▾
+Dashboard
+SCA Projects
+Pen Test Projects
+Risk Score
+Integrations
+Rules & Policy
+Integrations
+Connect TrustChainAI to your existing tools
++ Add Integration
+PLATFORM CONNECTORS
+GitHub
+Auto-trigger SCA scans on pull requests. Post risk scores as PR checks. Supports GitHub Actions.
+Connected — example-org
+Jira
+Create Jira tickets automatically for Critical and High CVEs. Assign to the right team based on component ownership.
+Not connected
+Slack
+Send real-time alerts to your security channel when new Critical CVEs are detected or pen test completes.
+Connected — #security-alerts
+GitLab
+CI/CD pipeline integration. Block deployments when risk score exceeds threshold. Supports GitLab CI.
+Not connected
+Splunk / SIEM
+Forward scan results and CVE alerts to your SIEM via syslog or HTTP Event Collector (HEC).
+Not connected
+AWS / Azure
+Scan container images and Lambda functions. Integrates with ECR, ACR, and cloud-native registries.
+Not connected
+API KEYS
+API Keys
++ Generate New Key
+Generated — 19 Apr 2026
+sk-sent-tmrxv7z57sdn ⚠ copy now — this is the only time the full token is shown
+Copy
+Revoke
+Production — DSO Integration
+sk-sent-••••••••••••••••••••••3a9f
+Copy
+Revoke
+Staging — Internal Testing
+sk-sent-••••••••••••••••••••••7c2d
+Copy
+Revoke
+✓
+New API key generated

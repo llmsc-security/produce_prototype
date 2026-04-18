@@ -1,0 +1,51 @@
+{
+  "project": "LangChain RAG Pipeline",
+  "task": "v2.1.4 — Release Gate",
+  "generated_at": "2026-04-18T22:32:54.121Z",
+  "scanner": "TrustChainAI SCA",
+  "totals": {
+    "cves": 47,
+    "critical": 5,
+    "high": 12,
+    "medium": 18,
+    "low": 12,
+    "components": 312
+  },
+  "findings": [
+    {
+      "cve": "CVE-2024-3095",
+      "component": "langchain-core@0.1.5",
+      "severity": "Critical",
+      "cvss": 9.1,
+      "fix": "None"
+    },
+    {
+      "cve": "CVE-2024-2998",
+      "component": "llama-index@0.9.2",
+      "severity": "Critical",
+      "cvss": 9.8,
+      "fix": "llama-index 0.9.8"
+    },
+    {
+      "cve": "CVE-2024-34062",
+      "component": "transformers@4.36.0",
+      "severity": "High",
+      "cvss": 7.5,
+      "fix": "transformers 4.38.0"
+    },
+    {
+      "cve": "CVE-2024-27319",
+      "component": "openai@1.6.1",
+      "severity": "High",
+      "cvss": 7.2,
+      "fix": "openai 1.12.0"
+    },
+    {
+      "cve": "CVE-2023-50782",
+      "component": "requests@2.31.0",
+      "severity": "Medium",
+      "cvss": 5.9,
+      "fix": "requests 2.32.0"
+    }
+  ]
+}

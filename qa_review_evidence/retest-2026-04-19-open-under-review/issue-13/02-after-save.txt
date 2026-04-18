@@ -1,0 +1,60 @@
+URL: https://trustchainai.ai2wj.com/rules.html
+
+TrustChainAI
+⌘K
+S
+silent-wolf-82a0
+Guest
+▾
+Dashboard
+SCA Projects
+Pen Test Projects
+Risk Score
+Integrations
+Rules & Policy
+Rules & Policy
+Configure scan behaviour, severity thresholds, and compliance rules
+Save Changes
+✓ Saved 6:32:58 AM
+SCAN RULES
+Auto-scan on new dependency
+Trigger SCA scan when requirements.txt or pyproject.toml changes
+Block deploy on Critical CVE
+Fail CI/CD pipeline if any Critical CVE is detected without a patch
+Include proprietary CVE library
+Use TrustChainAI's 183 proprietary CVEs in addition to NVD/OSV
+Non-lateral pen test mode
+Restrict pen test to no lateral movement — required for government clients
+Auto-create Jira tickets
+Create tickets for Critical and High CVEs after each scan
+Scheduled weekly scan
+Automatically re-scan all registered applications every Monday 02:00 SGT
+COMPLIANCE FRAMEWORK
+Singapore CSA Cybersecurity Framework
+Map findings to CSA guidelines for government reporting
+MAS TRMG Alignment
+Tag CVEs relevant to MAS Technology Risk Management Guidelines
+PDPA Data Risk Tagging
+Flag components that process personal data under Singapore PDPA
+OWASP LLM Top 10
+Align pen test findings to OWASP LLM Top 10 taxonomy
+SEVERITY THRESHOLDS
+⬤ Critical threshold (CVSS min)
+⬤ High threshold (CVSS min)
+⬤ Medium threshold (CVSS min)
+⬤ Low threshold (CVSS min)
+Risk score alert threshold
+Max false positive tolerance (%)
+CUSTOM SEVERITY LABELS
+
+Map TrustChainAI severity levels to your organisation's internal classification. Exported reports will use your labels.
+
+REPORT DEFAULTS
+Include executive summary
+Add a non-technical one-page summary to every PDF report
+Include remediation steps
+Add patch guidance and recommended actions for each CVE
+Export JSON alongside PDF
+Always generate machine-readable JSON report for SIEM ingestion
+✓
+Rules & policy saved · 7 rules enabled

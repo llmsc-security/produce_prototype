@@ -1,0 +1,36 @@
+URL: https://trustchainai.ai2wj.com/sca_progress.html
+
+TrustChainAI
+⌘K
+B
+brave-orca-fa58
+Guest
+▾
+Dashboard
+SCA Projects
+Pen Test Projects
+Risk Score
+Integrations
+Rules & Policy
+Scanning…
+Initialising scan engine
+✎ Edit Config
+Abort
+1
+PARSE MANIFESTS
+2
+RESOLVE GRAPH
+3
+CVE MATCHING
+4
+REPORT GENERATION
+LIVE LOG
+0s
+—
+COMPONENTS
+—
+CVES FOUND
+—
+CRITICAL
+0%
+FALSE POSITIVES
