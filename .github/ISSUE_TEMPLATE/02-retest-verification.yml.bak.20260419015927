@@ -44,16 +44,6 @@ body:
     validations:
       required: false
 
-  - type: textarea
-    id: screenshot_evidence
-    attributes:
-      label: Screenshot evidence
-      description: Include Playwright screenshot paths or attachment references for the retest
-      placeholder: |
-        - Screenshot: artifacts/screenshots/ISSUE-123-retest-failed.png
-    validations:
-      required: true
-
   - type: dropdown
     id: final_decision
     attributes:

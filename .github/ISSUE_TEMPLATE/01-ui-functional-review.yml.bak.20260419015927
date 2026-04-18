@@ -1,7 +1,7 @@
 name: UI / Functional Review Issue
 description: Report a UI, functional, logic, interaction, or regression issue found during review
 title: "[Review] "
-labels: ["bug"]
+labels: ["bug", "needs-review"]
 body:
   - type: dropdown
     id: issue_type
@@ -73,13 +73,9 @@ body:
     id: evidence
     attributes:
       label: Evidence
-      description: Include Playwright screenshot paths, attachments, visible UI observations, and relevant notes
-      placeholder: |
-        - Screenshot: artifacts/screenshots/draft-create-user-before-submit.png
-        - Screenshot: artifacts/screenshots/draft-create-user-after-submit.png
-        - Playwright observation: success toast shown, but created user not visible in list
+      description: Screenshot paths, Playwright observations, console or network notes
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: fix_direction
