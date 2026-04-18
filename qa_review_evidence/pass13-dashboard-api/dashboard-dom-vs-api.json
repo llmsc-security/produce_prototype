@@ -1,0 +1,211 @@
+{
+  "stats": [
+    "48",
+    "2,681",
+    "347",
+    "12",
+    "14",
+    "330"
+  ],
+  "statLabels": [
+    "Projects",
+    "Components",
+    "CVEs detected",
+    "Tests run",
+    "Exploits confirmed",
+    "Tasks / run"
+  ],
+  "riskScore": "72",
+  "activity": [
+    {
+      "text": "Critical CVE in langchain-core 0.1.5 — CVE-2024-3095 (CVSS 9.1)",
+      "time": "2 hours ago"
+    },
+    {
+      "text": "Pen test on api4.ai2wj.com — 14 exploits confirmed",
+      "time": "1 day ago"
+    },
+    {
+      "text": "New proprietary CVE added — LlamaIndex injection vector",
+      "time": "2 days ago"
+    },
+    {
+      "text": "AutoGPT v0.5.1 — 241 components parsed",
+      "time": "5 days ago"
+    }
+  ],
+  "statsApi": {
+    "total_scans": 27,
+    "total_vulns": 0,
+    "total_critical": 0,
+    "total_components": 0,
+    "risk_score": 0
+  },
+  "eventsApi": {
+    "events": [
+      {
+        "type": "sca_complete",
+        "message": "SCA scan completed for https://github.com/batch-org/repo-1776524165733-b (0 vulns)",
+        "scan_id": "22c200f9-b4e3-4558-b07d-eb47bbe07b21",
+        "timestamp": 1776524165.864427
+      },
+      {
+        "type": "sca_complete",
+        "message": "SCA scan completed for https://github.com/batch-org/repo-1776524165733-a (0 vulns)",
+        "scan_id": "db68a351-9564-495e-b208-e49fff03828b",
+        "timestamp": 1776524165.863063
+      },
+      {
+        "type": "sca_complete",
+        "message": "SCA scan completed for https://github.com/batch-org/repo-1776524129472-b (0 vulns)",
+        "scan_id": "9be0e384-aaa7-4c3d-80d1-b72c36474517",
+        "timestamp": 1776524129.595845
+      },
+      {
+        "type": "sca_complete",
+        "message": "SCA scan completed for https://github.com/batch-org/repo-1776524129472-a (0 vulns)",
+        "scan_id": "340eb2c9-bb4d-428a-9e2b-87cbe018a6ca",
+        "timestamp": 1776524129.594613
+      },
+      {
+        "type": "sca_complete",
+        "message": "SCA scan completed for https://github.com/batch-org/repo-1776524085809-b (0 vulns)",
+        "scan_id": "bb7baedb-2b34-484c-a260-3432999d6215",
+        "timestamp": 1776524085.917533
+      },
+      {
+        "type": "sca_complete",
+        "message": "SCA scan completed for https://github.com/batch-org/repo-1776524085809-a (0 vulns)",
+        "scan_id": "9af6d621-9e6a-4ac9-950d-3e99bd857d3c",
+        "timestamp": 1776524085.916351
+      },
+      {
+        "type": "sca_complete",
+        "message": "SCA scan completed for https://github.com/audit-org/repo-1776523980692-b (0 vulns)",
+        "scan_id": "8f27710d-d1a9-45d9-bb3b-625ce8137f9f",
+        "timestamp": 1776523980.78224
+      },
+      {
+        "type": "sca_complete",
+        "message": "SCA scan completed for https://github.com/audit-org/repo-1776523980692-a (0 vulns)",
+        "scan_id": "71475f9f-88ad-4cc5-93f9-bed586c9ff5f",
+        "timestamp": 1776523980.779582
+      },
+      {
+        "type": "sca_complete",
+        "message": "SCA scan completed for https://github.com/audit-org/repo-1776523870270-b (0 vulns)",
+        "scan_id": "8514af7c-167e-4af8-be17-c0c29355c6ec",
+        "timestamp": 1776523870.382479
+      },
+      {
+        "type": "sca_complete",
+        "message": "SCA scan completed for https://github.com/audit-org/repo-1776523870270-a (0 vulns)",
+        "scan_id": "e41022ad-e46a-492e-810f-59cf9b034f91",
+        "timestamp": 1776523870.380072
+      }
+    ],
+    "total": 27
+  },
+  "adminApi": {
+    "integrations": {
+      "items": [
+        {
+          "key": "github",
+          "name": "GitHub",
+          "icon": "🐙",
+          "description": "Auto-trigger SCA scans on pull requests. Post risk scores as PR checks. Supports GitHub Actions.",
+          "connected": true,
+          "target": "example-org"
+        },
+        {
+          "key": "jira",
+          "name": "Jira",
+          "icon": "🔵",
+          "description": "Create Jira tickets automatically for Critical and High CVEs. Assign to the right team based on component ownership.",
+          "connected": false,
+          "target": ""
+        },
+        {
+          "key": "slack",
+          "name": "Slack",
+          "icon": "💬",
+          "description": "Send real-time alerts to your security channel when new Critical CVEs are detected or pen test completes.",
+          "connected": true,
+          "target": "#security-alerts"
+        },
+        {
+          "key": "gitlab",
+          "name": "GitLab",
+          "icon": "🔶",
+          "description": "CI/CD pipeline integration. Block deployments when risk score exceeds threshold. Supports GitLab CI.",
+          "connected": false,
+          "target": ""
+        },
+        {
+          "key": "splunk",
+          "name": "Splunk / SIEM",
+          "icon": "📊",
+          "description": "Forward scan results and CVE alerts to your SIEM via syslog or HTTP Event Collector (HEC).",
+          "connected": false,
+          "target": ""
+        },
+        {
+          "key": "cloud",
+          "name": "AWS / Azure",
+          "icon": "☁️",
+          "description": "Scan container images and Lambda functions. Integrates with ECR, ACR, and cloud-native registries.",
+          "connected": false,
+          "target": ""
+        }
+      ],
+      "api_keys": [
+        {
+          "id": "prod-dso",
+          "name": "Production — DSO Integration",
+          "value": "sk-sent-••••••••••••••••••••••3a9f"
+        },
+        {
+          "id": "staging-internal",
+          "name": "Staging — Internal Testing",
+          "value": "sk-sent-••••••••••••••••••••••7c2d"
+        }
+      ]
+    },
+    "rules": {
+      "scan_rules": {
+        "auto_scan_dependency": true,
+        "block_deploy_critical": true,
+        "include_proprietary_cves": true,
+        "non_lateral_pentest": true,
+        "auto_create_jira": false,
+        "scheduled_weekly_scan": false,
+        "active_llm_group": "gpt-5.1"
+      },
+      "compliance": {
+        "csa_framework": true,
+        "mas_trmg": true,
+        "pdpa_data_risk": false,
+        "owasp_llm_top10": true
+      },
+      "thresholds": {
+        "critical_min": "9.0",
+        "high_min": "7.0",
+        "medium_min": "4.0",
+        "low_min": "0.1",
+        "risk_alert": "70",
+        "false_positive_tolerance": "0"
+      },
+      "severity_labels": {
+        "critical": "P0 / Severity 1",
+        "high": "P1 / Severity 2",
+        "medium": "P2 / Severity 3",
+        "low": "P3 / Severity 4"
+      },
+      "report_defaults": {
+        "include_executive_summary": true,
+        "include_remediation_steps": true,
+        "export_json": false
+      }
+    }
+  }
+}

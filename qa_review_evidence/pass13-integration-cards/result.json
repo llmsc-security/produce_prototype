@@ -1,0 +1,68 @@
+{
+  "cards": [
+    {
+      "idx": 0,
+      "text": "GitHub Auto-trigger SCA scans on pull requests. Post risk scores as PR checks. Supports GitHub Actions. Connected — example-org",
+      "onclick": null,
+      "role": null,
+      "tabIndex": null
+    },
+    {
+      "idx": 1,
+      "text": "Jira Create Jira tickets automatically for Critical and High CVEs. Assign to the right team based on component ownership. Not connected",
+      "onclick": null,
+      "role": null,
+      "tabIndex": null
+    },
+    {
+      "idx": 2,
+      "text": "Slack Send real-time alerts to your security channel when new Critical CVEs are detected or pen test completes. Connected — #security-alerts",
+      "onclick": null,
+      "role": null,
+      "tabIndex": null
+    },
+    {
+      "idx": 3,
+      "text": "GitLab CI/CD pipeline integration. Block deployments when risk score exceeds threshold. Supports GitLab CI. Not connected",
+      "onclick": null,
+      "role": null,
+      "tabIndex": null
+    },
+    {
+      "idx": 4,
+      "text": "Splunk / SIEM Forward scan results and CVE alerts to your SIEM via syslog or HTTP Event Collector (HEC). Not connected",
+      "onclick": null,
+      "role": null,
+      "tabIndex": null
+    },
+    {
+      "idx": 5,
+      "text": "AWS / Azure Scan container images and Lambda functions. Integrates with ECR, ACR, and cloud-native registries. Not connected",
+      "onclick": null,
+      "role": null,
+      "tabIndex": null
+    }
+  ],
+  "githubBox": {
+    "x": 244,
+    "y": 149,
+    "width": 381.328125,
+    "height": 183
+  },
+  "jiraBox": {
+    "x": 639.328125,
+    "y": 149,
+    "width": 381.328125,
+    "height": 183
+  },
+  "afterGithub": {
+    "url": "https://trustchainai.ai2wj.com/integrations.html",
+    "modalCount": 0,
+    "toastCount": 0
+  },
+  "afterJira": {
+    "url": "https://trustchainai.ai2wj.com/integrations.html",
+    "modalCount": 0,
+    "toastCount": 0
+  }
+}
