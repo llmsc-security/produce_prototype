@@ -1,0 +1,15 @@
+{
+  "initial": "BODY#. :: TrustChainAI SECURE ENVIRONMENT Sign in to continue This environment is access-controlled. Scans and pentests require an",
+  "seq": [
+    "INPUT#login-email. :: ",
+    "INPUT#login-displayname. :: ",
+    "BUTTON#. :: Sign In →",
+    "BUTTON#. :: Continue as guest",
+    "BUTTON#.gh-hamburger :: Toggle sidebar",
+    "INPUT#gh-search-input. :: ",
+    "BUTTON#gh-notif-btn.gh-icon-btn :: Notifications",
+    "BUTTON#.btn btn-ghost :: Abort All Running",
+    "BUTTON#.btn btn-ghost :: Batch Import",
+    "BUTTON#.btn btn-ghost :: Batch Run"
+  ]
+}
