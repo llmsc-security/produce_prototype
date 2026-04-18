@@ -1,0 +1,98 @@
+name: UI / Functional Review Issue
+description: Report a UI, functional, logic, interaction, or regression issue found during review
+title: "[Review] "
+labels: ["bug", "needs-review"]
+body:
+  - type: dropdown
+    id: issue_type
+    attributes:
+      label: Type
+      options:
+        - UI
+        - Functional
+        - Logic
+        - Interaction
+        - Regression
+    validations:
+      required: true
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      options:
+        - Critical
+        - High
+        - Medium
+        - Low
+    validations:
+      required: true
+
+  - type: input
+    id: page_feature
+    attributes:
+      label: Page / Feature
+      placeholder: e.g. Create User page
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Clear explanation of the problem
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open ...
+        2. Enter ...
+        3. Submit ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Screenshot paths, Playwright observations, console or network notes
+    validations:
+      required: false
+
+  - type: textarea
+    id: fix_direction
+    attributes:
+      label: Suggested fix direction
+    validations:
+      required: false
+
+  - type: textarea
+    id: source_of_truth
+    attributes:
+      label: Source of truth
+      value: |
+        Approved UI design:
+        docker_sca_chain_analysis/design_doc/TrustChainAI_UI.html
+
+        Live implementation:
+        https://trustchainai.ai2wj.com/
+    validations:
+      required: true
