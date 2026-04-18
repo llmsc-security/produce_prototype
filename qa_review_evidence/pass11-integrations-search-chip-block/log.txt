@@ -1,0 +1,12 @@
+Page: https://trustchainai.ai2wj.com/integrations.html
+Flow:
+1. Enter as guest if prompted.
+2. Type a query into #gh-search-input.
+3. Press Enter so the global search chip appears.
+4. Attempt to click + Add Integration.
+
+Observed:
+- Add Integration button bbox: x=1285.4375 y=63.5 w=130.5625 h=28
+- elementFromPoint at button center: DIV#global-search-chip
+- Playwright click timed out because the chip intercepted pointer events.
+- No Add Integration modal became visible.
