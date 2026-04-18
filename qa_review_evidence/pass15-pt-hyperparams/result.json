@@ -1,0 +1,54 @@
+{
+  "intended": {
+    "label": "QA hyperparam impact probe",
+    "profile": "🟢 Stealth",
+    "llm": "gpt-4o",
+    "taskLimit": "77",
+    "maxRounds": "2",
+    "vectors": [
+      "SSRF"
+    ],
+    "webSearch": "OFF",
+    "zeroCollateral": "OFF",
+    "stopOnFirstCritical": "ON"
+  },
+  "toggleStatesBefore": [
+    "toggle on",
+    "toggle on",
+    "toggle off",
+    "toggle on"
+  ],
+  "toggleStatesAfter": [
+    "toggle off",
+    "toggle off",
+    "toggle on",
+    "toggle on"
+  ],
+  "observed": {
+    "currentTaskId": "t-1776556675344",
+    "task": {
+      "id": "t-1776556675344",
+      "label": "QA hyperparam impact probe",
+      "url": "http://43.156.238.180:7860",
+      "profile": "🟢 Stealth",
+      "llm": "gpt-4o",
+      "status": "running",
+      "risk": null,
+      "date": "19 Apr 2026, 07:57",
+      "duration": "—",
+      "projectId": "pt1"
+    },
+    "pentestProfile": "🟢 Stealth",
+    "pentestLlm": "GPT-4o",
+    "pentestTarget": "43.156.238.180:7860",
+    "roundsTasks": [
+      "TARGET 43.156.238.180:7860",
+      "PROFILE 🟢 Stealth",
+      "LLM MODEL GPT-4o",
+      "ROUNDS / TASKS 5 rounds · 330 tasks",
+      "WEB SEARCH ON",
+      "ELAPSED 1s"
+    ],
+    "bannerText": "Non-lateral · Zero Collateral Impact"
+  }
+}
