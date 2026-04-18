@@ -1,0 +1,65 @@
+URL: https://trustchainai.ai2wj.com/pt_project.html
+
+TrustChainAI
+⌘K
+N
+nimble-tiger-ff72
+Guest
+▾
+Dashboard
+SCA Projects
+Pen Test Projects
+Risk Score
+Integrations
+Rules & Policy
+qa-retest-pt-task-parent-1776536784563
+Pen Test Project · https://pt-retest-task.example.org/1776536784563
+← Projects
+Create Task
+PROJECT INFO
+READ-ONLY
+📋
+Details
+PROJECT NAME
+TARGET URL
+DESCRIPTION
+ENVIRONMENT
+GENERAL CONFIGURATION
+READ-ONLY
+🔑
+Authentication
+AUTH METHOD
+CUSTOM HEADERS
+🛡️
+Scope
+IN-SCOPE PATHS
+EXCLUDE PATHS
+Non-Lateral Mode
+No lateral movement beyond this target
+ℹ️ Project configuration is locked. Click + Create Task — task-level overrides may also update the project config.
+TASK HISTORY
+3 TASKS TOTAL
+All severity
+Critical
+High
+Medium
+All LLMs
+GPT-4o
+Claude 3.5 Sonnet
+Llama 3.1 70B
+TrustChainAI Internal
+Create Task
+TASK
+LLM MODEL
+SEVERITY
+REPORT
+No tasks yet — click + Create Task to launch one.
+AGGREGATE RESULTS
+2
+EXPLOITS CONFIRMED
+7
+VULNERABILITIES
+3
+TASKS RUN
+86
+RISK SCORE

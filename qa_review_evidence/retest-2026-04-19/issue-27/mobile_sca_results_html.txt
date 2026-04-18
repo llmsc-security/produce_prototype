@@ -1,0 +1,72 @@
+URL: https://trustchainai.ai2wj.com/sca_results.html
+
+C
+calm-heron-47d3
+Guest
+▾
+SCA Projects
+›
+LangChain RAG Pipeline
+›
+v2.1.4 — Release Gate
+74
+LangChain-RAG-Pipeline v2.1.4 
+SCA
+SCAN
+sha a3f82c1
+main
+📅 6 Apr 2026 · 14:32
+⏱ 11m 24s
+✓ 0% FP rate
+TOP COMPONENTS
+langchain-core 0.1.5
+llama-index 0.9.2
+transformers 4.36.0
+openai 1.6.1
+QUALITY
+100% parse rate
+312 components · 48 direct
+⬛ 5 proprietary CVEs
+requirements.txt · pyproject.toml
+Task List
+✎ Edit & Re-run
+Export Report
+Scan Configuration
+· LLM, CVE sources, report format used by this scan
+▾ Show
+47
+TOTAL CVES
+5
+CRITICAL
+12
+HIGH
+18
+MEDIUM
+ Vulnerabilities 47
+ Dependency Details 312
+ Risk Breakdown
+ Component Map
+Filter:
+● Critical (5)
+● High (12)
+● Medium (18)
+Low (12)
+⬛ Proprietary (5)
+Showing 7 of 47 · sorted by CVSS
+	CVE / ID	COMPONENT	ECOSYSTEM	SEVERITY	CVSS	FIX AVAILABLE	POC
+▶	CVE-2024-3095	langchain-core 0.1.5	PYPI	Critical	9.1	None	▶ POC
+
+▶	⬛ PROP-0047	llama-index 0.9.2	TRUSTCHAINAI	Critical	8.8	Workaround	Lab only
+
+▶	CVE-2024-1876	transformers 4.36.0	PYPI	High	7.5	4.38.0	▶ POC
+
+▶	CVE-2023-9182	openai 1.6.1	PYPI	High	7.2	1.7.0	—
+
+▶	⬛ PROP-0031	faiss-cpu 1.7.4	TRUSTCHAINAI	Medium	5.1	Monitoring	Lab only
+
+▶	CVE-2024-0521	pydantic 2.4.2	PYPI	Medium	4.8	2.5.0	—
+
+▶	CVE-2023-7244	requests 2.31.0	PYPI	Medium	4.3	2.32.0	—
+
+⬛ Proprietary CVE — detected by TrustChainAI only, not in NVD/OSV public databases
+Showing 7 of 47 · View all →

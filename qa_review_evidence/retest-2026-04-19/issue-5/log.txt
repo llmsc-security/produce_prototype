@@ -1,0 +1,4 @@
+After save, URL=https://trustchainai.ai2wj.com/sca_project.html
+body contains name: true, body contains repo: true
+After reload, contains name: true
+In project list after reload: true

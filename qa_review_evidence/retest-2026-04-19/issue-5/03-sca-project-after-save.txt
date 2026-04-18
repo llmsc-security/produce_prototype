@@ -1,0 +1,52 @@
+URL: https://trustchainai.ai2wj.com/sca_project.html
+
+TrustChainAI
+⌘K
+C
+clever-owl-5a45
+Guest
+▾
+Dashboard
+SCA Projects
+Pen Test Projects
+Risk Score
+Integrations
+Rules & Policy
+qa-retest-proj-1776536761290
+github.com/qa-retest-org/proj-1776536761290 · Auto-detect · main
+← Projects
+New Task
+PROJECT CONFIGURATION
+READ-ONLY
+🎯
+Source
+REPOSITORY URL
+DEFAULT BRANCH
+ECOSYSTEM
+🗄️
+CVE Databases
+Proprietary CVEs 183
+TrustChainAI-exclusive library
+NVD / NIST
+OSV + GitHub Advisory
+False Positive Suppression
+ℹ️ Project configuration is locked after the first task. To change it, click + New Task — task-level overrides may also update the project config.
+0
+TASKS RUN
+—
+TOTAL CVES
+—
+COMPONENTS
+—
+PEAK SCORE
+TASK HISTORY
+All status
+Completed
+Running
+Failed
+All LLMs
+GPT-4o
+Claude 3.5 Sonnet
+Llama 3.1 70B
+TrustChainAI Internal
+No tasks match — clear filters or click New Task.

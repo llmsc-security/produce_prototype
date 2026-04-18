@@ -1,0 +1,49 @@
+URL: https://trustchainai.ai2wj.com/pentest.html
+
+TrustChainAI
+⌘K
+N
+nimble-tiger-ff72
+Guest
+▾
+Dashboard
+SCA Projects
+Pen Test Projects
+Risk Score
+Integrations
+Rules & Policy
+Pen Test
+›
+qa-retest-pt-task-parent-1776536784563
+›
+qa-pt-retest-label-1776536784563
+Live Pen Test · LLM-driven Automated Penetration Testing
+Non-lateral · Zero Collateral Impact
+← Task List
+✎ Edit Config
+Stop / Abort
+TARGET
+pt-task-retest.example.org/1776536784563
+PROFILE
+⚡ Standard (recommended)
+LLM MODEL
+Claude 3.5 Sonnet
+ROUNDS / TASKS
+5 rounds · 330 tasks
+WEB SEARCH
+ON
+ELAPSED
+2s
+▶ Live Demo
+📘 Summary Report
+1
+INFO COLLECTION
+2
+WEAKNESS GATHERING
+3
+FILTERING
+4
+ATTACK PLANNING
+5
+EXPLOITATION
+⏳ STAGE 1 — INFORMATION COLLECTION RUNNING…

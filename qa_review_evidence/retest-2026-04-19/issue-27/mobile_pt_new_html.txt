@@ -1,0 +1,99 @@
+URL: https://trustchainai.ai2wj.com/pt_new.html
+
+C
+calm-heron-47d3
+Guest
+▾
+New Pen Test Task
+Configure attack parameters for this task
+← Back to Project
+Launch Attack
+🎯
+Target
+TARGET URL
+overrides project default
+TASK LABEL
+optional
+ENVIRONMENT
+Production Replica
+Staging
+Lab / Isolated
+⚔️
+Attack Profile
+PROFILE
+🟢 Stealth
+⚡ Standard (recommended)
+🔴 Aggressive
+TASK LIMIT
+max 660
+330
+MAX ATTACK ROUNDS
+5
+ATTACK VECTORS
+multi-select
+Injection
+Auth Bypass
+RCE
+Prompt Injection
+SSRF
+Privilege Escalation
+Data Exfiltration
+🔑
+Authentication
+AUTH METHOD
+None — unauthenticated
+Bearer Token / API Key
+HTTP Basic Auth
+OAuth 2.0
+Cookie / Session
+CUSTOM HEADERS
+optional
+🛡️
+Safety & Scope
+Non-Lateral Mode
+Always on — cannot disable
+Zero Collateral Impact
+Abort if 3rd-party systems at risk
+Stop on First Critical
+Halt after first confirmed critical exploit
+🧠
+AI Engine
+DECISION MODEL
+TrustChainAI Internal (default)
+GPT-4o (Azure OpenAI)
+Claude 3.5 Sonnet
+Llama 3.1 70B
+EXPLOIT STRATEGY
+Adaptive — LLM selects next step
+Exhaustive — run all matching tasks
+Targeted — user-specified only
+📄
+Output
+REPORT FORMAT
+Full Technical — PDF + JSON
+Executive Summary — PDF
+JSON only
+NOTIFICATION
+optional
+⚔️
+Task Summary
+Project
+Langflow Platform
+Target
+43.156.238.180:7860
+Profile
+Standard
+Task limit
+330 / 660
+Max rounds
+5
+Auth
+None
+AI engine
+TrustChainAI Internal
+Non-lateral
+Always on
+Est. duration
+8–14 min
+⚠️ Ensure written authorisation is in place before launching.
+Launch Attack Save as Template

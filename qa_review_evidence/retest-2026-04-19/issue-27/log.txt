@@ -1,0 +1,4 @@
+/index.html => {"asideWidth":56,"mainWidth":334,"rootClass":"app sidebar-collapsed is-mobile","viewport":390}
+/sca_results.html => {"asideWidth":56,"mainWidth":334,"rootClass":"app sidebar-collapsed is-mobile","viewport":390}
+/pt_new.html => {"asideWidth":56,"mainWidth":334,"rootClass":"app sidebar-collapsed is-mobile","viewport":390}
+/sca_projects.html => {"asideWidth":56,"mainWidth":334,"rootClass":"app sidebar-collapsed is-mobile","viewport":390}

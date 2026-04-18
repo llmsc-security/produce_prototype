@@ -1,0 +1,74 @@
+URL: https://trustchainai.ai2wj.com/sca_projects.html
+
+TrustChainAI
+⌘K
+C
+clever-owl-5a45
+Guest
+▾
+Dashboard
+SCA Projects
+Pen Test Projects
+Risk Score
+Integrations
+Rules & Policy
+SCA Scan
+Projects — Software Composition Analysis
+Abort All Running
+Batch Import
+Batch Run
+New Project
+All status
+Active
+Running
+Draft
+All risk
+Critical
+High
+Medium
+Low
+Sort: Last scan
+Sort: Risk score
+Sort: Name A–Z
+5 projects
+High
+LangChain RAG Pipeline
+github.com/example-org/langchain-rag-pipeline
+Python · 22 Mar 2026 17:45 · 4 tasks
+Python
+main
+4 Critical CVEs
+305 components · 128 CVEs
+78
+High
+LlamaIndex Enterprise
+github.com/example-org/llamaindex-enterprise
+Python · 5 Apr 2026 09:14 · 1 task
+Python
+main
+2 Critical CVEs
+187 components · 29 CVEs
+71
+High
+OpenAI Agents SDK
+github.com/openai/openai-agents-python
+Python · 4 Apr 2026 16:50 · 1 task
+Python
+main
+1 Critical CVEs
+94 components · 18 CVEs
+68
+⏳ Running
+CrewAI
+github.com/joaomdmoura/crewAI
+Python · Running now… · 1 task
+Not yet scanned
+—
+Draft
+qa-retest-proj-1776536761290
+github.com/qa-retest-org/proj-1776536761290
+Auto-detect · No scans yet · 0 tasks
+Not yet scanned
+—
+Create New Project
+Add a repo or URL to scan

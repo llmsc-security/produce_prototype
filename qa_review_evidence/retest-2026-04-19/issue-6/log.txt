@@ -1,0 +1,3 @@
+URL=https://trustchainai.ai2wj.com/pt_project.html nameHit=true targetHit=true
+After reload nameHit=true
+Present in project list after reload: true

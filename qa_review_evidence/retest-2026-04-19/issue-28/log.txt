@@ -1,0 +1,2 @@
+login gate visible: true
+after tap, hasProfile=true, gateStillThere=false
