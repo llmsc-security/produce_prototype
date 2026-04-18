@@ -1,0 +1,55 @@
+name: Retest / Verification
+description: Record reviewer retest result for a previously fixed issue
+title: "[Retest] "
+labels: ["needs-review"]
+body:
+  - type: input
+    id: original_issue
+    attributes:
+      label: Original issue number
+      placeholder: e.g. #123
+    validations:
+      required: true
+
+  - type: dropdown
+    id: result
+    attributes:
+      label: Retest result
+      options:
+        - Passed
+        - Failed
+        - Partially fixed
+    validations:
+      required: true
+
+  - type: textarea
+    id: replay_steps
+    attributes:
+      label: Retest steps
+      description: Exact steps replayed, usually with Playwright
+    validations:
+      required: true
+
+  - type: textarea
+    id: reviewer_comments
+    attributes:
+      label: Reviewer comments
+    validations:
+      required: true
+
+  - type: textarea
+    id: regression_check
+    attributes:
+      label: Regression check
+    validations:
+      required: false
+
+  - type: dropdown
+    id: final_decision
+    attributes:
+      label: Final decision
+      options:
+        - Close issue
+        - Reopen issue
+    validations:
+      required: true
