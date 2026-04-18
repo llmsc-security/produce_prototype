@@ -1,0 +1,80 @@
+URL: https://trustchainai.ai2wj.com/index.html
+
+TrustChainAI
+⌘K
+V
+vivid-falcon-52ea
+Guest
+▾
+vivid-falcon-52ea
+guest session
+User Center
+Integrations
+Rules & Policy
+Sign out
+Dashboard
+SCA Projects
+Pen Test Projects
+Risk Score
+Integrations
+Rules & Policy
+Dashboard
+Overview · 6 Apr 2026
+Welcome back, Ken
+TrustChainAI secures LLM applications from code to attack surface. Pick a product below to start.
+SCA Scan
+SOFTWARE COMPOSITION ANALYSIS
+
+Scan LLM-application dependencies for known CVEs across PyPI, npm, and TrustChainAI’s proprietary library. Get a deterministic component-level risk score and an audit-ready SBOM on every run.
+
+Proprietary CVE DB (183) + NVD + OSV / GitHub Advisory
+Deterministic per-component risk scoring
+SBOM export (CycloneDX / SPDX)
+0% false-positive ratei
+48
+PROJECTS
+2,681
+COMPONENTS
+347
+CVES DETECTED
+Start SCA Scan
+Pen Test
+LLM-DRIVEN AUTOMATED PENETRATION TESTING
+
+An agentic five-stage LLM pipeline performs reconnaissance, gathers weaknesses, plans attacks, and confirms exploits on your live application — non-lateral, with zero collateral impact.
+
+5-stage LLM agent pipeline (Info → Exploit)
+Live reasoning stream & exploit proof-of-concept
+Non-lateral · zero collateral impact
+Bring your own LLM (Claude, GPT-4o, Llama)
+12
+TESTS RUN
+14
+EXPLOITS CONFIRMED
+330
+TASKS / RUN
+Start Pen Test
+Ecosystem Risk
+across all projects
+Low
+High
+72
+Overall Risk Score
+24
+CRITICAL
+67
+HIGH
+112
+MEDIUM
+144
+LOW
+Recent Activity
+last 7 days
+Critical CVE in langchain-core 0.1.5 — CVE-2024-3095 (CVSS 9.1)
+2 hours ago
+Pen test on api4.ai2wj.com — 14 exploits confirmed
+1 day ago
+New proprietary CVE added — LlamaIndex injection vector
+2 days ago
+AutoGPT v0.5.1 — 241 components parsed
+5 days ago

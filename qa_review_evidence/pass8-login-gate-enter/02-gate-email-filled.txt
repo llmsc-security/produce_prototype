@@ -1,0 +1,39 @@
+URL: https://trustchainai.ai2wj.com/sca_projects.html
+
+TrustChainAI
+SECURE ENVIRONMENT
+Sign in to continue
+This environment is access-controlled. Scans and pentests require an authenticated session.
+EMAIL
+DISPLAY NAME (OPTIONAL)
+Sign In → Continue as guest
+TrustChainAI
+⌘K
+?
+—
+Not signed in
+▾
+Dashboard
+SCA Projects
+Pen Test Projects
+Risk Score
+Integrations
+Rules & Policy
+SCA Scan
+Projects — Software Composition Analysis
+Abort All Running
+Batch Import
+Batch Run
+New Project
+All status
+Active
+Running
+Draft
+All risk
+Critical
+High
+Medium
+Low
+Sort: Last scan
+Sort: Risk score
+Sort: Name A–Z

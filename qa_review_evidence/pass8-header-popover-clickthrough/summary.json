@@ -1,0 +1,30 @@
+{
+  "gateEnter": {
+    "sig": "qa-enter-1776550396404@example.com",
+    "gateAfterEnter": true,
+    "chipAfterEnter": "?\n—\nNot signed in\n▾",
+    "gateAfterClick": false,
+    "chipAfterClick": "Q\nqa-enter-1776550396404\nSigned in\n▾",
+    "url": "https://trustchainai.ai2wj.com/sca_projects.html"
+  },
+  "notif": {
+    "pre": "https://trustchainai.ai2wj.com/index.html",
+    "post": "https://trustchainai.ai2wj.com/sca_projects.html",
+    "bbox": {
+      "x": 269,
+      "y": 605.171875,
+      "width": 527,
+      "height": 39
+    }
+  },
+  "menu": {
+    "pre": "https://trustchainai.ai2wj.com/index.html",
+    "post": "https://trustchainai.ai2wj.com/pt_projects.html",
+    "bbox": {
+      "x": 864,
+      "y": 605.171875,
+      "width": 527,
+      "height": 39
+    }
+  }
+}
